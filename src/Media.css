@@ -28,7 +28,7 @@
   .grid-cat {
     display: grid;
     column-gap: 25px;
-    grid-template-columns: 5% 1fr 2fr 5%;
+    grid-template-columns: 5% 2fr 2fr 5%;
     grid-template-areas: "c1 c2 c3 c4";
   }
   .grid-cat-1 {
