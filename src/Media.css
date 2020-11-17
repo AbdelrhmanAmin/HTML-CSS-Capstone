@@ -27,8 +27,8 @@
   }
   .grid-cat {
     display: grid;
-    /* grid-column: 10px; */
-    grid-template-columns: 10% 1fr 3fr 10%;
+    column-gap: 25px;
+    grid-template-columns: 5% 1fr 2fr 5%;
     grid-template-areas: "c1 c2 c3 c4";
   }
   .grid-cat-1 {
