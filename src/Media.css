@@ -1,14 +1,14 @@
 @media only screen and (min-width: 768px) {
+  :root {
+    font-size: 15px !important;
+  }
   p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
   li,
   span {
-    font-size: 15px;
+    font-size: 15px !important;
+  }
+  .small-m {
+    font-size: 95%;
   }
   .grid-list-1 {
     display: grid;
@@ -22,7 +22,7 @@
     grid-area: aa-2;
   }
   .icon-input {
-    top: 10px;
+    top: 15px;
     left: 8px;
   }
 }
