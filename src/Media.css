@@ -1,4 +1,15 @@
 @media only screen and (min-width: 768px) {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  span {
+    font-size: 15px;
+  }
   .grid-list-1 {
     display: grid;
     grid-template-areas: "aa-1 a1 a2 a3 a4 aa-2";
@@ -9,5 +20,9 @@
   }
   .grid-arrow-2 {
     grid-area: aa-2;
+  }
+  .icon-input {
+    top: 10px;
+    left: 8px;
   }
 }

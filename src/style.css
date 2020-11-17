@@ -77,3 +77,6 @@ span {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.rad-0 {
+  border-radius: 0 !important;
+}
