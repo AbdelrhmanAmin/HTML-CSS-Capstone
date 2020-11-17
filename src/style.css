@@ -53,6 +53,7 @@ span {
 .grid-list-1 {
   display: grid;
   grid-gap: 20px 10px;
+  width: 100%;
   grid-template-areas:
     "a1 a2"
     "a3 a4";

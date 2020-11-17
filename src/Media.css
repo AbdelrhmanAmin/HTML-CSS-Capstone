@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+  .grid-list-1 {
+    display: grid;
+    grid-template-areas: "aa-1 a1 a2 a3 a4 aa-2";
+    align-items: center;
+  }
+  .grid-arrow-1 {
+    grid-area: aa-1;
+  }
+  .grid-arrow-2 {
+    grid-area: aa-2;
+  }
+}

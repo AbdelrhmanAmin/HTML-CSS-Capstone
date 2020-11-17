@@ -21,9 +21,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar px-5">
         <ul
-          class="list-unstyled d-flex flex-row w-100 justify-content-around align-items-center m-0"
+          class="list-unstyled d-flex flex-row w-100 justify-content-around align-items-center m-0 px-md-5"
         >
           <li class="d-flex align-items-center">
             <i class="fas fa-cat fa-2x text-danger mr-2"></i>
@@ -35,7 +35,7 @@
           <li class="var-red"><i class="fas fa-home"></i> HOME</li>
           <li class="var-gray"><i class="fas fa-coffee"></i> COFFEE</li>
           <li class="var-gray"><i class="fas fa-paw"></i> ORDERED</li>
-          <li class="var-gray d-none">
+          <li class="var-gray d-none d-md-block">
             <button
               type="button"
               class="var-bg-red text-white border-0 py-2 px-3"
@@ -46,9 +46,12 @@
         </ul>
       </nav>
     </header>
+    <div class="container-fluid">
+      <p class="display-4 font-weight-bolder">NEKO SHOP</p>
+    </div>
     <div class="jumbotron mb-0">
       <div class="container-fluid mt-2">
-        <div class="row px-2 mx-2 mb-5">
+        <div class="row px-2 mx-2 px-md-0 mx-md-0 mb-5">
           <h6 class="col-12 border-bottom px-1 py-2 var-gray">
             <i class="fas fa-paw mr-3"></i> Kittens
             <span class="small-m ml-2"
@@ -56,6 +59,9 @@
             >
           </h6>
           <div class="grid-list-1">
+            <i
+              class="d-none d-md-block fas fa-arrow-circle-left fa-2x grid-arrow-1"
+            ></i>
             <div class="grid-item-1">
               <div class="card">
                 <img
@@ -148,9 +154,12 @@
                 </div>
               </div>
             </div>
+            <i
+              class="d-none d-md-block fas fa-arrow-circle-right fa-2x grid-arrow-2"
+            ></i>
           </div>
         </div>
-        <div class="row px-2 mx-2 mb-5">
+        <div class="row px-2 mx-2 px-md-0 mx-md-0 mb-5">
           <h6 class="col-12 border-bottom px-1 py-2 var-gray">
             <i class="fas fa-paw mr-3"></i> Kittens
             <span class="small-m ml-2"
@@ -158,6 +167,9 @@
             >
           </h6>
           <div class="grid-list-1">
+            <i
+              class="d-none d-md-block fas fa-arrow-circle-left fa-2x grid-arrow-1"
+            ></i>
             <div class="grid-item-1">
               <div class="card">
                 <img
@@ -250,9 +262,12 @@
                 </div>
               </div>
             </div>
+            <i
+              class="d-none d-md-block fas fa-arrow-circle-right fa-2x grid-arrow-2"
+            ></i>
           </div>
         </div>
-        <div class="row px-2 mx-2 mb-5">
+        <div class="row px-2 mx-2 px-md-0 mx-md-0 mb-5">
           <h6 class="col-12 border-bottom px-1 py-2 var-gray">
             <i class="fas fa-paw mr-3"></i> Kittens
             <span class="small-m ml-2"
@@ -260,6 +275,9 @@
             >
           </h6>
           <div class="grid-list-1">
+            <i
+              class="d-none d-md-block fas fa-arrow-circle-left fa-2x grid-arrow-1"
+            ></i>
             <div class="grid-item-1">
               <div class="card">
                 <img
@@ -352,15 +370,15 @@
                 </div>
               </div>
             </div>
+            <i
+              class="d-none d-md-block fas fa-arrow-circle-right fa-2x grid-arrow-2"
+            ></i>
           </div>
         </div>
       </div>
     </div>
-    <footer
-      class="container var-bg-black text-light"
-      style="margin-bottom: 1000px"
-    >
-      <div class="row px-5 border-bottom d-flex align-items-center">
+    <footer class="container-fluid var-bg-black text-light">
+      <div class="row px-5 px-md-0 border-bottom d-flex align-items-center">
         <div
           class="col-3 d-flex align-items-center var-gray justify-content-center w-100 mb-3"
         >
@@ -370,19 +388,47 @@
             SHOP
           </span>
         </div>
-        <ul class="offset-6 col-3 d-flex flex-row">
+        <ul class="offset-6 col-3 d-flex flex-row justify-content-center">
           <li class="mx-2 var-red"><i class="fab fa-facebook-square"></i></li>
           <li class="mx-2 var-red"><i class="fab fa-twitter-square"></i></li>
           <li class="mx-2 var-red"><i class="fab fa-github-square"></i></li>
         </ul>
+        <div class="d-none d-md-flex justify-content-between w-100 mx-5 px-5">
+          <ul>
+            <li class="var-red font-weight-bold">Meow</li>
+            <li class="var-gray font-weight-bold">Arggggh</li>
+            <li class="var-gray font-weight-bold">Purrrrr</li>
+            <li class="var-gray font-weight-bold">Howllllll</li>
+            <li class="var-gray font-weight-bold">Hissssss</li>
+          </ul>
+          <ul>
+            <li class="var-red font-weight-bold">Meow</li>
+            <li class="var-gray font-weight-bold">Arggggh</li>
+            <li class="var-gray font-weight-bold">Purrrrr</li>
+            <li class="var-gray font-weight-bold">Howllllll</li>
+            <li class="var-gray font-weight-bold">Hissssss</li>
+          </ul>
+          <ul>
+            <li class="var-red font-weight-bold">Meow</li>
+            <li class="var-gray font-weight-bold">Arggggh</li>
+            <li class="var-gray font-weight-bold">Purrrrr</li>
+            <li class="var-gray font-weight-bold">Howllllll</li>
+            <li class="var-gray font-weight-bold">Hissssss</li>
+          </ul>
+          <ul>
+            <li class="var-red font-weight-bold">Meow</li>
+            <li class="var-gray font-weight-bold">Arggggh</li>
+            <li class="var-gray font-weight-bold">Purrrrr</li>
+            <li class="var-gray font-weight-bold">Howllllll</li>
+            <li class="var-gray font-weight-bold">Hissssss</li>
+          </ul>
+        </div>
       </div>
-      <span class="text-center small-m"
-        >Copyright&#169; 2020 NekoMaster.com. All Rights Reserved. Desgined by
-        Abdelrhman Amin, Inspired by
-        <a href="https://www.behance.net/gallery/24796463/ZATTIX"
-          >Mohammed Awad.</a
-        ></span
-      >
+      <div class="w-100 text-center">
+        <span class="text-center small-m">
+          Made with <i class="ml-2 fas fa-mug-hot var-red"></i>
+        </span>
+      </div>
     </footer>
 
     <script
