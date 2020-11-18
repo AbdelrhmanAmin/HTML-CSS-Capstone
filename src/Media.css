@@ -2,6 +2,7 @@
   :root {
     font-size: initial !important;
   }
+
   .logo {
     line-height: 20px;
   }
@@ -10,7 +11,7 @@
   p,
   li,
   span {
-    font-size: 2vw !important;
+    font-size: 1.5vw !important;
   }
 
   .grid-list-1 {

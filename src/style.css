@@ -8,6 +8,7 @@
   --red: #d35266;
   --gray: #888;
   --black: #383838;
+
   font-size: 3vw !important;
 }
 
@@ -114,7 +115,8 @@ span {
 }
 
 .search-img-bg {
-  background: url(https://placekitten.com/300/145) center center / cover
+  background:
+    url(https://placekitten.com/300/145) center center / cover
     no-repeat;
   height: 200px;
   position: relative;
