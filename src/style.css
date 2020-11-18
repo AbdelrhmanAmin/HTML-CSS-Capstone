@@ -8,6 +8,7 @@
   --red: #d35266;
   --gray: #888;
   --black: #383838;
+  font-size: 3vw !important;
 }
 
 ul {
@@ -21,7 +22,7 @@ a {
 
 a:hover {
   opacity: 0.7;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 h1,
@@ -36,10 +37,6 @@ p,
 li,
 span {
   font-size: 12px;
-}
-
-.small-m {
-  font-size: 9px !important;
 }
 
 .var-red {
@@ -117,8 +114,7 @@ span {
 }
 
 .search-img-bg {
-  background:
-    url(https://placekitten.com/300/145) center center / cover
+  background: url(https://placekitten.com/300/145) center center / cover
     no-repeat;
   height: 200px;
   position: relative;

@@ -1,4 +1,7 @@
 @media only screen and (min-width: 768px) {
+  :root {
+    font-size: initial !important;
+  }
   .logo {
     line-height: 20px;
   }
@@ -7,11 +10,7 @@
   p,
   li,
   span {
-    font-size: 1.5vw !important;
-  }
-
-  .small-m {
-    font-size: 1vw !important;
+    font-size: 2vw !important;
   }
 
   .grid-list-1 {
@@ -65,8 +64,7 @@
   }
 
   .img-bg {
-    background:
-      url(https://placekitten.com/408/287) center center / cover
+    background: url(https://placekitten.com/408/287) center center / cover
       no-repeat;
     height: 300px;
     position: relative;
@@ -85,8 +83,7 @@
   }
 
   .search-img-bg {
-    background:
-      url(https://placekitten.com/300/145) center center / cover
+    background: url(https://placekitten.com/300/145) center center / cover
       no-repeat;
     height: 200px;
     position: relative;
