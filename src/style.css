@@ -3,85 +3,77 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --red: #d35266;
   --gray: #888;
   --black: #383838;
 }
-@font-face {
-  font-family: Gotham-font;
-  src: url(./Fonts/Gotham-Bold.otf);
-  font-weight: bold;
-}
 
-@font-face {
-  font-family: Helvetica-Neue-bold;
-  src: url(./Fonts/Helvetica\ Neue\ LT\ 75\ Bold.ttf);
-}
-.search-btn {
-  font-family: Helvetica-Neue-bold;
-}
-.hel-font-bold {
-  font-family: Helvetica-Neue-bold;
-}
-.hel-font {
-  font-family: Helvetica-Neue-light;
-}
-.gotham-font {
-  font-family: Gotham-font;
-}
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   transition: 0.3s;
 }
+
 a:hover {
   opacity: 0.7;
   text-decoration: none !important;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: Gotham-font;
   font-size: 2.5vw;
 }
+
 p,
 li,
 span {
   font-size: 12px;
-  font-family: Helvetica-Neue-light;
 }
+
 .small-m {
   font-size: 9px !important;
 }
+
 .var-red {
   color: var(--red) !important;
 }
+
 .var-gray {
   color: var(--gray) !important;
 }
+
 .var-black {
   color: var(--black) !important;
 }
+
 .var-bg-red {
   background-color: var(--red) !important;
 }
+
 .var-bg-gray {
   background-color: var(--gray) !important;
 }
+
 .var-bg-black {
   background-color: var(--black) !important;
 }
+
 .navbar {
   background-color: var(--black);
 }
+
 .logo {
   line-height: 11px;
 }
+
 .grid-list-1 {
   display: grid;
   grid-gap: 20px 10px;
@@ -90,37 +82,48 @@ span {
     "a1 a2"
     "a3 a4";
 }
+
 .grid-item-1 {
   grid-area: a1;
 }
+
 .grid-item-2 {
   grid-area: a2;
 }
+
 .grid-item-3 {
   grid-area: a3;
 }
+
 .grid-item-4 {
   grid-area: a4;
 }
+
 .categories hr {
   border-color: var(--red);
 }
+
 .category-grid-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .rad-0 {
   border-radius: 0 !important;
 }
+
 .search-grid {
   display: grid;
 }
+
 .search-img-bg {
-  background: url(https://placekitten.com/300/145) center center / cover
+  background:
+    url(https://placekitten.com/300/145) center center / cover
     no-repeat;
   height: 200px;
   position: relative;
 }
+
 .sides-icons {
   position: absolute;
   bottom: 0;

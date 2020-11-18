@@ -2,76 +2,96 @@
   .logo {
     line-height: 20px;
   }
+
   a,
   p,
   li,
   span {
     font-size: 1.5vw !important;
   }
+
   .small-m {
     font-size: 1vw !important;
   }
+
   .grid-list-1 {
     display: grid;
     grid-template-areas: "aa-1 a1 a2 a3 a4 aa-2";
     align-items: center;
   }
+
   .grid-list-1 > i {
     margin: auto;
   }
+
   .grid-arrow-1 {
     grid-area: aa-1;
   }
+
   .grid-arrow-2 {
     grid-area: aa-2;
   }
+
   .grid-cat {
     display: grid;
     column-gap: 25px;
     grid-template-columns: 5% 1fr 1fr 5%;
     grid-template-areas: "c1 c2 c3 c4";
   }
+
   .grid-cat > i {
     margin: auto;
   }
+
   .grid-cat-1 {
     grid-area: c1;
   }
+
   .grid-cat-2 {
     grid-area: c2;
   }
+
   .grid-cat-3 {
     grid-area: c3;
   }
+
   .grid-cat-4 {
     grid-area: c4;
   }
+
   .grid-list-1 > div:first-child,
-  .grid-list-1 > div:first-child {
+  .grid-list-1 > div:last-child {
     text-align: center;
   }
+
   .img-bg {
-    background: url(https://placekitten.com/408/287) center center / cover
+    background:
+      url(https://placekitten.com/408/287) center center / cover
       no-repeat;
     height: 300px;
     position: relative;
   }
+
   .sides-icons {
     position: absolute;
     bottom: 0;
     right: 0;
   }
+
   .search-grid {
     display: grid;
     column-gap: 10px;
     grid-template-columns: 1fr 4fr;
   }
+
   .search-img-bg {
-    background: url(https://placekitten.com/300/145) center center / cover
+    background:
+      url(https://placekitten.com/300/145) center center / cover
       no-repeat;
     height: 200px;
     position: relative;
   }
+
   .grid-product {
     display: grid;
     grid-template-columns: 1fr 2fr;
