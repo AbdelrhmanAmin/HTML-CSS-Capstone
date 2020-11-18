@@ -60,4 +60,20 @@
     bottom: 0;
     right: 0;
   }
+  .search-grid {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 1fr 4fr;
+  }
+  .search-img-bg {
+    background: url(https://placekitten.com/300/145) center center / cover
+      no-repeat;
+    height: 200px;
+    position: relative;
+  }
+  .grid-product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+  }
 }

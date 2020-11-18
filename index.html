@@ -37,10 +37,19 @@
               <span class="text-white">SHOP</span>
             </span>
           </li>
-          <li class="var-red"><i class="fas fa-home"></i> HOME</li>
-          <li class="var-gray"><i class="fas fa-coffee"></i> COFFEE</li>
-          <li class="var-gray"><i class="fas fa-paw"></i> ORDERED</li>
-          <li class="var-gray d-none d-md-block">
+          <li class="small-m var-red">
+            <a href="index.html" class="var-red">
+              <i class="fas fa-home"></i> HOME</a
+            >
+          </li>
+          <li class="small-m var-gray"><i class="fas fa-coffee"></i> COFFEE</li>
+          <li class="small-m var-gray">
+            <a href="search.html" class="text-warning">
+              <i class="fas fa-paw"></i>
+              <span class="var-red small-m">HIGLY</span> ORDERED
+            </a>
+          </li>
+          <li class="small-m var-gray d-none d-md-block">
             <button
               type="button"
               class="var-bg-red text-white border-0 py-2 px-3"
@@ -57,7 +66,7 @@
         <h3 class="font-weight-bolder text-center m-0">NEKO SHOP</h3>
         <p class="text-center">Selling And Buying Cats Since 1999.</p>
         <div class="container">
-          <ul class="row no-gutters mb-0 mt-5">
+          <ul class="row no-gutters mb-0 mt-5 d-flex justify-content-center">
             <li class="form-group px-0 mr-1 col-2 position-relative">
               <input
                 type="text"
@@ -81,12 +90,12 @@
               />
             </li>
             <li class="form-group col-2 px-0">
-              <button
+              <a
                 class="btn btn-warning btn-lg rad-0 search-btn"
-                type="submit"
+                href="./search.html"
               >
                 Search
-              </button>
+              </a>
             </li>
           </ul>
         </div>
@@ -101,9 +110,9 @@
           <div class="grid-cat-2 py-5 d-flex flex-column h-100">
             <h5 class="text-secondary">HOT CAT</h5>
             <div class="img-bg w-100">
-              <div class="sides-icons d-flex var-bg-red">
-                <i class="fas fa-caret-square-left fa-2x"></i>
-                <i class="fas fa-caret-square-right fa-2x"></i>
+              <div class="sides-icons d-flex w-100 justify-content-between">
+                <i class="fas fa-caret-square-left fa-2x bg-warning"></i>
+                <i class="fas fa-caret-square-right fa-2x bg-warning"></i>
               </div>
             </div>
           </div>
