@@ -6,10 +6,10 @@
   p,
   li,
   span {
-    font-size: 2vw !important;
+    font-size: 1.5vw !important;
   }
   .small-m {
-    font-size: 1.5vw !important;
+    font-size: 1vw !important;
   }
   .grid-list-1 {
     display: grid;

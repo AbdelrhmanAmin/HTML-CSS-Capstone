@@ -13,10 +13,7 @@
   src: url(./Fonts/Gotham-Bold.otf);
   font-weight: bold;
 }
-@font-face {
-  font-family: Helvetica-Neue-light;
-  src: url(./Fonts/Helvetica\ Neue\ LT\ 45\ Light.ttf);
-}
+
 @font-face {
   font-family: Helvetica-Neue-bold;
   src: url(./Fonts/Helvetica\ Neue\ LT\ 75\ Bold.ttf);
