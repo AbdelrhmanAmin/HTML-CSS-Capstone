@@ -50,12 +50,12 @@ h3,
 h4,
 h5 {
   font-family: Gotham-font;
-  font-size: 2.5vw !important;
+  font-size: 2.5vw;
 }
 p,
 li,
 span {
-  font-size: 12px !important;
+  font-size: 12px;
   font-family: Helvetica-Neue-light;
 }
 .small-m {
@@ -114,4 +114,18 @@ span {
 }
 .rad-0 {
   border-radius: 0 !important;
+}
+.search-grid {
+  display: grid;
+}
+.search-img-bg {
+  background: url(https://placekitten.com/300/145) center center / cover
+    no-repeat;
+  height: 200px;
+  position: relative;
+}
+.sides-icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
