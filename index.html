@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="src/Media.css" />
     <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
       integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
@@ -23,7 +28,7 @@
     <header>
       <nav class="navbar px-5">
         <ul
-          class="list-unstyled d-flex flex-row w-100 justify-content-around align-items-baseline m-0 px-md-5"
+          class="nav-ul list-unstyled d-flex flex-row w-100 justify-content-around align-items-center m-0 px-md-5"
         >
           <li class="d-flex align-items-center">
             <i class="fas fa-cat fa-2x text-danger mr-2"></i>
@@ -53,13 +58,11 @@
         <p class="text-center">Selling And Buying Cats Since 1999.</p>
         <ul class="row px-5 mx-5 d-flex justify-content-center mb-0 mt-5">
           <li class="form-group px-0 mx-1 col-2 position-relative">
-            <i
-              class="fa fa-arrow-down position-absolute icon-input var-black"
-            ></i>
             <input
               type="text"
               class="form-control form-control-lg rad-0"
-              placeholder=" &nbsp; All types"
+              placeholder=" &#xf107; All types"
+              style="font-family: Arial, FontAwesome"
             />
           </li>
           <li class="form-group px-0 mx-1 col-5">
@@ -85,25 +88,36 @@
           <i
             class="grid-cat-1 d-none d-md-block fas fa-arrow-circle-left fa-2x"
           ></i>
-          <div class="row grid-cat-2">
-            <h6 class="col-12">HOT CAT</h6>
-            <img class="col-12" src="https://placekitten.com/408/287" alt="" />
+          <div class="grid-cat-2 py-5 d-flex flex-column h-100">
+            <h5 class="text-secondary">HOT CAT</h5>
+            <div class="img-bg w-100">
+              <div class="sides-icons d-flex var-bg-red">
+                <i class="fas fa-caret-square-left fa-2x"></i>
+                <i class="fas fa-caret-square-right fa-2x"></i>
+              </div>
+            </div>
           </div>
           <div
-            class="grid-cat-3 d-flex flex-column justify-content-start h-100 py-3 pr-3"
+            class="grid-cat-3 d-flex flex-column justify-content-start h-100 py-5"
           >
-            <h6 class="var-red">HOT CAT DRINKS MILK (Potential cuteness).</h6>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
-              officia quasi ipsum doloremque placeat quas!
+            <h5 class="var-red">HOT CAT DRINKS MILK (Potential cuteness).</h5>
+            <p class="pr-5 d-flex flex-column justify-content-center h-100">
+              <span>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
+                officia quasi ipsum doloremque placeat quas! ipsum dolor sit
+                officia quasi ipsum doloremque placeat quas! ipsum dolor sit
+                ipsum dolor sit
+              </span>
             </p>
             <form class="input-group">
               <button
+                type="button"
                 class="btn btn-danger border rad-0 px-4 font-weight-bolder"
               >
                 $450
               </button>
               <button
+                type="button"
                 class="btn btn-danger border rad-0 px-4 font-weight-bolder"
               >
                 LEARN MORE
@@ -119,12 +133,12 @@
     <div class="jumbotron mb-0">
       <div class="container-fluid mt-2">
         <div class="row px-2 mx-2 px-md-0 mx-md-0 mb-5">
-          <div class="col-12 border-bottom px-1 py-2 var-gray">
+          <div class="col-12 border-bottom px-1 py-2 mb-3 var-gray">
             <div class="d-flex flex-row align-items-center">
               <i class="fas fa-paw mr-3"></i>
-              <h5 class="mb-0">Kittens</h5>
-              <span class="small-m ml-2"
-                >(Persian, Maine Coon, Siamese Cat and Ragdoll)</span
+              <h5 class="mb-0 text-uppercase">Kittens</h5>
+              <small class="small-m ml-2 my-auto"
+                >(Persian, Maine Coon, Siamese Cat and Ragdoll)</small
               >
             </div>
           </div>
@@ -147,229 +161,7 @@
                   <div
                     class="d-flex justify-content-between w-100 mt-2 align-items-center"
                   >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-item-2">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-item-3">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-item-4">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <i
-              class="d-none d-md-block fas fa-arrow-circle-right fa-2x grid-arrow-2"
-            ></i>
-          </div>
-        </div>
-        <div class="row px-2 mx-2 px-md-0 mx-md-0 mb-5">
-          <div class="col-12 border-bottom px-1 py-2 var-gray">
-            <div class="d-flex flex-row align-items-center">
-              <i class="fas fa-paw mr-3"></i>
-              <h5 class="mb-0">Kittens</h5>
-              <span class="small-m ml-2"
-                >(Persian, Maine Coon, Siamese Cat and Ragdoll)</span
-              >
-            </div>
-          </div>
-          <div class="grid-list-1">
-            <i
-              class="d-none d-md-block fas fa-arrow-circle-left fa-2x grid-arrow-1"
-            ></i>
-            <div class="grid-item-1">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-item-2">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-item-3">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="grid-item-4">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
-                      <i class="fas fa-paw small-m"></i>
-                    </button>
-                    <strong class="var-red small-m">$999</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <i
-              class="d-none d-md-block fas fa-arrow-circle-right fa-2x grid-arrow-2"
-            ></i>
-          </div>
-        </div>
-        <div class="row px-2 mx-2 px-md-0 mx-md-0 mb-5">
-          <div class="col-12 border-bottom px-1 py-2 var-gray">
-            <div class="d-flex flex-row align-items-center">
-              <i class="fas fa-paw mr-3"></i>
-              <h5 class="mb-0">Kittens</h5>
-              <span class="small-m ml-2"
-                >(Persian, Maine Coon, Siamese Cat and Ragdoll)</span
-              >
-            </div>
-          </div>
-          <div class="grid-list-1">
-            <i
-              class="d-none d-md-block fas fa-arrow-circle-left fa-2x grid-arrow-1"
-            ></i>
-            <div class="grid-item-1">
-              <div class="card">
-                <img
-                  class="card-img-top"
-                  src="https://placekitten.com/200/150"
-                  alt="Card image"
-                />
-                <div class="card-body pt-1 px-3 pb-2">
-                  <p class="card-title m-0">
-                    Fluffy kitten with short fluffy tail
-                  </p>
-                  <strong class="var-red small-m">FLUFFY</strong>
-                  <div
-                    class="d-flex justify-content-between w-100 mt-2 align-items-center"
-                  >
-                    <button class="btn border p-0 px-2">
+                    <button class="btn border p-0 px-2" type="button">
                       <i class="fas fa-paw small-m"></i>
                     </button>
                     <strong class="var-red small-m">$999</strong>
@@ -453,7 +245,7 @@
         </div>
       </div>
     </div>
-    <footer class="container-fluid var-bg-black text-light">
+    <footer class="container-fluid var-bg-black text-light pt-3">
       <div class="row px-5 px-md-0 border-bottom d-flex align-items-center">
         <div
           class="col-3 d-flex align-items-center var-gray justify-content-center w-100 mb-3"
@@ -500,10 +292,10 @@
           </ul>
         </div>
       </div>
-      <div class="w-100 text-center">
-        <span class="text-center small-m">
+      <div class="w-100 text-center py-1">
+        <p class="text-center m-0">
           Made with <i class="ml-2 fas fa-mug-hot var-red"></i>
-        </span>
+        </p>
       </div>
     </footer>
 

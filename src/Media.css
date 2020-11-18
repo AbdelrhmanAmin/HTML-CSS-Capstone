@@ -1,19 +1,22 @@
 @media only screen and (min-width: 768px) {
-  :root {
-    font-size: 15px !important;
+  .logo {
+    line-height: 20px;
   }
   p,
   li,
   span {
-    font-size: 15px !important;
+    font-size: 2vw !important;
   }
   .small-m {
-    font-size: 95%;
+    font-size: 1.5vw !important;
   }
   .grid-list-1 {
     display: grid;
     grid-template-areas: "aa-1 a1 a2 a3 a4 aa-2";
     align-items: center;
+  }
+  .grid-list-1 > i {
+    margin: auto;
   }
   .grid-arrow-1 {
     grid-area: aa-1;
@@ -21,15 +24,14 @@
   .grid-arrow-2 {
     grid-area: aa-2;
   }
-  .icon-input {
-    top: 15px;
-    left: 8px;
-  }
   .grid-cat {
     display: grid;
     column-gap: 25px;
-    grid-template-columns: 5% 2fr 2fr 5%;
+    grid-template-columns: 5% 1fr 1fr 5%;
     grid-template-areas: "c1 c2 c3 c4";
+  }
+  .grid-cat > i {
+    margin: auto;
   }
   .grid-cat-1 {
     grid-area: c1;
@@ -42,5 +44,20 @@
   }
   .grid-cat-4 {
     grid-area: c4;
+  }
+  .grid-list-1 > div:first-child,
+  .grid-list-1 > div:first-child {
+    text-align: center;
+  }
+  .img-bg {
+    background: url(https://placekitten.com/408/287) center center / cover
+      no-repeat;
+    height: 300px;
+    position: relative;
+  }
+  .sides-icons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }
