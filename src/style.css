@@ -21,7 +21,18 @@
   font-family: Helvetica-Neue-bold;
   src: url(./Fonts/Helvetica\ Neue\ LT\ 75\ Bold.ttf);
 }
-
+.search-btn {
+  font-family: Helvetica-Neue-bold;
+}
+.hel-font-bold {
+  font-family: Helvetica-Neue-bold;
+}
+.hel-font {
+  font-family: Helvetica-Neue-light;
+}
+.gotham-font {
+  font-family: Gotham-font;
+}
 ul {
   list-style-type: none;
 }
