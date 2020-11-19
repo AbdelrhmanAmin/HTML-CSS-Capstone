@@ -109,7 +109,8 @@ p,
 }
 
 .search-img-bg {
-  background: url(https://placekitten.com/300/145) center center / cover
+  background:
+    url(https://placekitten.com/300/145) center center / cover
     no-repeat;
   height: 200px;
   position: relative;
@@ -122,6 +123,7 @@ p,
 }
 
 .milk {
-  background: url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg)
+  background:
+    url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg)
     center center / cover no-repeat;
 }
