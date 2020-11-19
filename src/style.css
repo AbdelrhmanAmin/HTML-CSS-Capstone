@@ -8,8 +8,6 @@
   --red: #d35266;
   --gray: #888;
   --black: #383838;
-
-  font-size: 3vw !important;
 }
 
 ul {
@@ -19,25 +17,19 @@ ul {
 a {
   text-decoration: none;
   transition: 0.3s;
+  font-size: 12px;
 }
 
 a:hover {
   opacity: 0.7;
   text-decoration: none;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-size: 2.5vw;
+.med-manual {
+  font-size: 14px;
 }
-
 p,
-li,
-span {
-  font-size: 12px;
+.small-manual {
+  font-size: 10px;
 }
 
 .var-red {
@@ -67,9 +59,12 @@ span {
 .navbar {
   background-color: var(--black);
 }
+.rad-0 {
+  border-radius: 0 !important;
+}
 
 .logo {
-  line-height: 11px;
+  line-height: 10px;
 }
 
 .grid-list-1 {
@@ -106,17 +101,12 @@ span {
   grid-template-columns: 1fr 1fr;
 }
 
-.rad-0 {
-  border-radius: 0 !important;
-}
-
 .search-grid {
   display: grid;
 }
 
 .search-img-bg {
-  background:
-    url(https://placekitten.com/300/145) center center / cover
+  background: url(https://placekitten.com/300/145) center center / cover
     no-repeat;
   height: 200px;
   position: relative;

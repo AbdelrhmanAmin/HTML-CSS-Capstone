@@ -1,21 +1,14 @@
 @media only screen and (min-width: 768px) {
-  :root {
-    font-size: initial !important;
-  }
-
-  .logo {
-    line-height: 20px;
-  }
-
-  a,
   p,
-  li,
-  span {
-    font-size: 1.5vw !important;
+  .small-manual {
+    font-size: 13px;
   }
-
+  .med-manual {
+    font-size: 16px;
+  }
   .grid-list-1 {
     display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
     grid-template-areas: "aa-1 a1 a2 a3 a4 aa-2";
     align-items: center;
   }
@@ -94,5 +87,20 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .logo {
+    line-height: 15px;
+  }
+  p,
+  .small-manual {
+    font-size: 16px;
+  }
+  a {
+    font-size: 18px;
+  }
+  .med-manual {
+    font-size: 21px;
   }
 }
