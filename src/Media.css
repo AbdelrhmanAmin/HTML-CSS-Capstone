@@ -3,6 +3,9 @@
   .small-manual {
     font-size: 13px;
   }
+  .logo {
+    line-height: 13px;
+  }
   a {
     font-size: 15px;
   }
