@@ -24,9 +24,11 @@ a:hover {
   opacity: 0.7;
   text-decoration: none;
 }
+
 .med-manual {
   font-size: 14px;
 }
+
 p,
 .small-manual {
   font-size: 10px;
@@ -59,6 +61,7 @@ p,
 .navbar {
   background-color: var(--black);
 }
+
 .rad-0 {
   border-radius: 0 !important;
 }
@@ -106,7 +109,8 @@ p,
 }
 
 .search-img-bg {
-  background: url(https://placekitten.com/300/145) center center / cover
+  background:
+    url(https://placekitten.com/300/145) center center / cover
     no-repeat;
   height: 200px;
   position: relative;
@@ -117,7 +121,9 @@ p,
   bottom: 0;
   right: 0;
 }
+
 .milk {
-  background: url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg)
+  background:
+    url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg)
     center center / cover no-repeat;
 }

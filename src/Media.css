@@ -3,15 +3,19 @@
   .small-manual {
     font-size: 13px;
   }
+
   .logo {
     line-height: 13px;
   }
+
   a {
     font-size: 15px;
   }
+
   .med-manual {
     font-size: 16px;
   }
+
   .grid-list-1 {
     display: grid;
     grid-template-columns: 5% 1fr 1fr 1fr 1fr 5%;
@@ -64,7 +68,8 @@
   }
 
   .img-bg {
-    background: url(https://placekitten.com/408/287) center center / cover
+    background:
+      url(https://placekitten.com/408/287) center center / cover
       no-repeat;
     height: 300px;
     position: relative;
@@ -83,7 +88,8 @@
   }
 
   .search-img-bg {
-    background: url(https://placekitten.com/300/145) center center / cover
+    background:
+      url(https://placekitten.com/300/145) center center / cover
       no-repeat;
     height: 200px;
     position: relative;
@@ -95,17 +101,21 @@
     column-gap: 15px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .logo {
     line-height: 15px;
   }
+
   p,
   .small-manual {
     font-size: 16px;
   }
+
   a {
     font-size: 18px;
   }
+
   .med-manual {
     font-size: 21px;
   }
