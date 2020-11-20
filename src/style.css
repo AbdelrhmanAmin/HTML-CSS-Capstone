@@ -10,17 +10,21 @@
   --gray: #888;
   --black: #383838;
 }
+
 .i-manual {
   font-size: 20px;
 }
+
 ul {
   list-style-type: none;
 }
+
 button,
 a,
 i {
   cursor: pointer;
 }
+
 a {
   text-decoration: none;
   transition: 0.3s;
@@ -40,37 +44,41 @@ p,
 .small-manual {
   font-size: 10px;
 }
+
 .var-pink {
   color: #e52763;
 }
+
 .var-orange {
   color: #e48141;
 }
+
 .var-green {
   color: #18a256;
 }
+
 .var-red {
-  color: var(--red) !important;
+  color: var(--red);
 }
 
 .var-gray {
-  color: var(--gray) !important;
+  color: var(--gray);
 }
 
 .var-black {
-  color: var(--black) !important;
+  color: var(--black);
 }
 
 .var-bg-red {
-  background-color: var(--red) !important;
+  background-color: var(--red);
 }
 
 .var-bg-gray {
-  background-color: var(--gray) !important;
+  background-color: var(--gray);
 }
 
 .var-bg-black {
-  background-color: var(--black) !important;
+  background-color: var(--black);
 }
 
 .navbar {
@@ -78,7 +86,7 @@ p,
 }
 
 .rad-0 {
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 
 .logo {
@@ -97,10 +105,12 @@ p,
 .grid-item-1 {
   grid-area: a1;
 }
+
 .card-img {
   height: 120px;
   width: 185px;
 }
+
 .grid-item-2 {
   grid-area: a2;
 }
@@ -127,32 +137,46 @@ p,
 }
 
 .search-img-bg-1 {
-  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49845305/1/?bust=1605893676&width=720)
-    center center / cover no-repeat;
+  background-image: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49845305/1/?bust=1605893676&width=720);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 200px;
   position: relative;
 }
+
 .search-img-bg-2 {
-  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49842596/1/?bust=1605867028&width=720)
-    center center / cover no-repeat;
+  background-image: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49842596/1/?bust=1605867028&width=720);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 200px;
   position: relative;
 }
+
 .search-img-bg-3 {
-  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49788305/2/?bust=1605694808&width=720)
-    center center / cover no-repeat;
+  background-image: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49788305/2/?bust=1605694808&width=720);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 200px;
   position: relative;
 }
+
 .search-img-bg-4 {
-  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49747319/1/?bust=1605694734&width=720)
-    center center / cover no-repeat;
+  background-image: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49747319/1/?bust=1605694734&width=720);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 200px;
   position: relative;
 }
+
 .search-img-bg-5 {
-  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49493898/1/?bust=1605694794&width=720)
-    center center / cover no-repeat;
+  background-image: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49493898/1/?bust=1605694794&width=720);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 200px;
   position: relative;
 }
@@ -164,15 +188,19 @@ p,
 }
 
 .milk {
-  background: url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg)
-    center center / cover no-repeat;
+  background-image: url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 .flex-footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin-bottom: 10px;
 }
+
 .flex-logo {
   display: flex;
   margin: 10px 0;
