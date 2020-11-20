@@ -1,4 +1,7 @@
 @media only screen and (min-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
   p,
   .small-manual {
     font-size: 13px;

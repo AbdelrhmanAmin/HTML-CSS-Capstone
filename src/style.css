@@ -96,7 +96,7 @@ p,
   grid-area: a1;
 }
 .card-img-top {
-  height: 180px;
+  height: 120px;
 }
 .grid-item-2 {
   grid-area: a2;
