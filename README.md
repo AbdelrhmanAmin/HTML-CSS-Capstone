@@ -7,6 +7,10 @@ The project consist of two pages:
 -Home page
 -Search page
 
+## Video preview
+
+[![Watch the video](./src/images/video.png)](https://www.loom.com/share/12dc4381228a4f4ca44181531ca39ffe)
+
 ## How to install
 
 - Open CMD
