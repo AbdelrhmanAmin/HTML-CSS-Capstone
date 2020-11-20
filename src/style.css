@@ -10,7 +10,9 @@
   --gray: #888;
   --black: #383838;
 }
-
+.i-manual {
+  font-size: 20px;
+}
 ul {
   list-style-type: none;
 }
@@ -95,8 +97,9 @@ p,
 .grid-item-1 {
   grid-area: a1;
 }
-.card-img-top {
+.card-img {
   height: 120px;
+  width: 185px;
 }
 .grid-item-2 {
   grid-area: a2;
@@ -123,9 +126,33 @@ p,
   display: grid;
 }
 
-.search-img-bg {
-  background: url(https://placekitten.com/300/145) center center / cover
-    no-repeat;
+.search-img-bg-1 {
+  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49845305/1/?bust=1605893676&width=720)
+    center center / cover no-repeat;
+  height: 200px;
+  position: relative;
+}
+.search-img-bg-2 {
+  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49842596/1/?bust=1605867028&width=720)
+    center center / cover no-repeat;
+  height: 200px;
+  position: relative;
+}
+.search-img-bg-3 {
+  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49788305/2/?bust=1605694808&width=720)
+    center center / cover no-repeat;
+  height: 200px;
+  position: relative;
+}
+.search-img-bg-4 {
+  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49747319/1/?bust=1605694734&width=720)
+    center center / cover no-repeat;
+  height: 200px;
+  position: relative;
+}
+.search-img-bg-5 {
+  background: url(https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/49493898/1/?bust=1605694794&width=720)
+    center center / cover no-repeat;
   height: 200px;
   position: relative;
 }

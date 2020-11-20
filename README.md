@@ -7,29 +7,40 @@ The project consist of two pages:
 -Home page
 -Search page
 
-## Home page
+## How to install
 
-![screenshot](./src/images/Home-nav.png)
+- Open CMD
+- write this command: git clone https://github.com/AbdelrhmanAmin/HTML-CSS-Capstone.git
+- Open the containing folder then open index.html
+
+## Home page
 
 - responsive navbar
 - Manually created logo
 - search field
 - Hot ad for a cat
-  ![screenshot](./src/images/home-footer.png)
+  ![screenshot](./src/images/Home-nav.png)
+
+## Bottom home page
+
 - Display different products
 - Simple footer links for website map
 - Giving credit to COFFEE <3
-  ![screenshot](./src/images/search-nav.png)
+  ![screenshot](./src/images/home-footer.png)
+
+## Search page
+
 - Dashboard nav
 - Displaying search results
 - Displaying category list
 - Funny "Donate milk" button
+  ![screenshot](./src/images/search-nav.png)
 
 ## Built With
 
 - HTML5.
 - CSS3.
-- flexbox.
+- Flexbox.
 - Grid.
 - Fontawesome.
 - Bootstrap.
@@ -48,7 +59,11 @@ To switch between the pages, You can simply click on the logo to go the main pag
 
 - GitHub: [@Abdelrhman-Amin](https://github.com/AbdelrhmanAmin)
 - Twitter: [@Abdo Amin](https://twitter.com/AbdoAmi60489112)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdo-amin-ab786a1b0/)
+- LinkedIn: [@Abdo Amin](https://www.linkedin.com/in/abdo-amin-ab786a1b0/)
+
+## Acknowledgements
+
+Desgin idea by [Mohammed Awad](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## 🤝 Contributing
 
