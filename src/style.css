@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 :root {
@@ -13,7 +14,11 @@
 ul {
   list-style-type: none;
 }
-
+button,
+a,
+i {
+  cursor: pointer;
+}
 a {
   text-decoration: none;
   transition: 0.3s;
@@ -33,7 +38,15 @@ p,
 .small-manual {
   font-size: 10px;
 }
-
+.var-pink {
+  color: #e52763;
+}
+.var-orange {
+  color: #e48141;
+}
+.var-green {
+  color: #18a256;
+}
 .var-red {
   color: var(--red) !important;
 }
@@ -82,7 +95,9 @@ p,
 .grid-item-1 {
   grid-area: a1;
 }
-
+.card-img-top {
+  height: 180px;
+}
 .grid-item-2 {
   grid-area: a2;
 }
@@ -109,8 +124,7 @@ p,
 }
 
 .search-img-bg {
-  background:
-    url(https://placekitten.com/300/145) center center / cover
+  background: url(https://placekitten.com/300/145) center center / cover
     no-repeat;
   height: 200px;
   position: relative;
@@ -123,7 +137,16 @@ p,
 }
 
 .milk {
-  background:
-    url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg)
+  background: url(https://img.wallpapersafari.com/desktop/1366/768/5/43/hTVely.jpg)
     center center / cover no-repeat;
+}
+.flex-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.flex-logo {
+  display: flex;
+  margin: 10px 0;
 }

@@ -11,7 +11,9 @@
   a {
     font-size: 16px;
   }
-
+  .i-manual {
+    font-size: 28px;
+  }
   .med-manual {
     font-size: 18px;
   }
@@ -68,8 +70,7 @@
   }
 
   .img-bg {
-    background:
-      url(https://placekitten.com/408/287) center center / cover
+    background: url(https://placekitten.com/408/287) center center / cover
       no-repeat;
     height: 300px;
     position: relative;
@@ -88,8 +89,7 @@
   }
 
   .search-img-bg {
-    background:
-      url(https://placekitten.com/300/145) center center / cover
+    background: url(https://placekitten.com/300/145) center center / cover
       no-repeat;
     height: 200px;
     position: relative;
