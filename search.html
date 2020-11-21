@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/Media.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <title>Search Page</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="d-flex justify-content-between w-100 align-items-center">
+          <div class="d-flex flex-row align-items-center">
+            <div class="navbar-header">
+              <div class="navbar-brand d-flex align-items-center">
+                <i class="fas fa-cat fa-2x text-danger mr-2"></i>
+                <a href="/index.html" class="font-weight-bolder logo text-white a-manual"
+                  >NEKO <br />
+                  <span class="text-white">SHOP</span>
+                </a>
+              </div>
+            </div>
+            <ul class="nav navbar-nav d-flex flex-row align-items-center">
+              <li class="mx-2 var-red">
+                <a href="index.html" class="var-red text-decoration-none">
+                  <i class="fas fa-home"></i> HOME</a
+                >
+              </li>
+              <li class="mx-2 var-gray">
+                <a href="#" class="var-gray a-manual text-decoration-none">
+                  <i class="fas fa-coffee"></i> COFFEE</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex flex-column text-center">
+            <span class="text-white hel-font">Welcome,</span>
+            <span class="var-red gotham-font">NEKO MASTER!</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="bg-warning text-center border-bottom py-3">
+      <strong
+        >STUDIES CONFIRMS THAT ADOPTING A CAT WILL BOOST YOUR MENTAL
+        CLARITY</strong
+      >
+    </div>
+    <main class="jumbotron pt-0 m-0">
+      <section class="container-fluid px-md-5 px-0">
+        <h1 class="text-center">MOST ADORABLE KITTENS</h1>
+        <section class="search-grid">
+          <section class="search-grid-item-1 pt-3 d-none d-md-flex flex-column">
+            <div>
+              <h6>Type</h6>
+              <ul class="border-top">
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    British Shorthair
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    Siamese
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    Sphinx
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h6>Color</h6>
+              <ul class="border-top">
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    Orange
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    Gray
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    White
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h6>Age</h6>
+              <ul class="border-top">
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    3 Months
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    6 Months
+                  </label>
+                </li>
+                <li class="form-check">
+                  <label class="small-manual text-secondary">
+                    <input
+                      type="checkbox"
+                      name="type"
+                      class="form-check-input small-manual"
+                    />
+                    2 Years
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="search-grid-item-2 border pt-3">
+            <div class="grid-product border-bottom p-3 mb-3">
+              <div class="search-img-bg-1 w-100 mb-3 mb-md-0"></div>
+              <div class="">
+                <div class="item-header d-flex justify-content-between">
+                  <div class="flex-left">
+                    <h6 class="med-manual">Tiger.</h6>
+                    <strong class="small-manual var-red text-uppercase"
+                      >Domestic Shorthair</strong
+                    >
+                  </div>
+                  <div class="flex-right">
+                    <button
+                      class="btn border p-0 px-2 var-bg-black"
+                      type="button"
+                    >
+                      <i class="fas fa-paw text-warning small-manual"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="item-body">
+                  <p class="text-secondary small-manual">
+                    the Kitty is curious about so many things, exploring and
+                    learning how fun life can be. He would be a great addition
+                    to any feline family.
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <span class="text-secondary small-manual">6 week old</span>
+                  <button
+                    type="button"
+                    class="btn btn-danger border rad-0 px-4"
+                  >
+                    $428
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="grid-product bg-white border-top border-bottom p-3 mb-3"
+            >
+              <div class="search-img-bg-2 w-100 mb-3 mb-md-0"></div>
+              <div class="">
+                <div class="item-header d-flex justify-content-between">
+                  <div class="flex-left">
+                    <h6 class="med-manual">Molly</h6>
+                    <strong class="small-manual var-red text-uppercase">
+                      Domestic Medium Hair
+                    </strong>
+                  </div>
+                  <div class="flex-right">
+                    <button
+                      class="btn border p-0 px-2 var-bg-black"
+                      type="button"
+                    >
+                      <i class="fas fa-paw text-warning small-manual"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="item-body">
+                  <p class="text-secondary small-manual">
+                    Molly is a black and white short-haired female with
+                    Egyptian-look eyes, a freckled nose, and dark chin. She was
+                    born about 5-31-20.
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <span class="text-secondary small-manual">6 months old</span>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-danger text-dark border rad-0 px-lg-4 font-weight-bold milk"
+                    >
+                      Donate Milk
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-danger border rad-0 px-lg-4"
+                    >
+                      $450
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-product border-bottom p-3 mb-3">
+              <div class="search-img-bg-3 w-100 mb-3 mb-md-0"></div>
+              <div class="">
+                <div class="item-header d-flex justify-content-between">
+                  <div class="flex-left">
+                    <h6 class="med-manual">Raja</h6>
+                    <strong class="small-manual var-red text-uppercase">
+                      Domestic Long Hair
+                    </strong>
+                  </div>
+                  <div class="flex-right">
+                    <button
+                      class="btn border p-0 px-2 var-bg-black"
+                      type="button"
+                    >
+                      <i class="fas fa-paw text-warning small-manual"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="item-body">
+                  <p class="text-secondary small-manual">
+                    Raja is an orange long-haired tabby with white markings.
+                    This sweet, adorable young cat was born 04-10-20.
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <span class="text-secondary small-manual">6 months old</span>
+                  <button
+                    type="button"
+                    class="btn btn-danger border rad-0 px-4"
+                  >
+                    $450
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-product border-bottom p-3 mb-3">
+              <div class="search-img-bg-4 w-100 mb-3 mb-md-0"></div>
+              <div class="">
+                <div class="item-header d-flex justify-content-between">
+                  <div class="flex-left">
+                    <h6 class="med-manual">Donkey</h6>
+                    <strong class="small-manual var-red text-uppercase">
+                      Domestic Short Hair
+                    </strong>
+                  </div>
+                  <div class="flex-right">
+                    <button
+                      class="btn border p-0 px-2 var-bg-black"
+                      type="button"
+                    >
+                      <i class="fas fa-paw text-warning small-manual"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="item-body">
+                  <p class="text-secondary small-manual">
+                    Donkey is a short-haired, all white neutered male teen
+                    kitten born about 5/20/2020. Donkey and his littermates were
+                    found cast in a dumpster in Anchorage.
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <span class="text-secondary small-manual">6 months old</span>
+                  <button
+                    type="button"
+                    class="btn btn-danger border rad-0 px-4"
+                  >
+                    $450
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="grid-product border-bottom p-3 mb-3">
+              <div class="search-img-bg-5 w-100 mb-3 mb-md-0"></div>
+              <div class="">
+                <div class="item-header d-flex justify-content-between">
+                  <div class="flex-left">
+                    <h6 class="med-manual">Aphrodite</h6>
+                    <strong class="small-manual var-red text-uppercase">
+                      Domestic Short Hair
+                    </strong>
+                  </div>
+                  <div class="flex-right">
+                    <button
+                      class="btn border p-0 px-2 var-bg-black"
+                      type="button"
+                    >
+                      <i class="fas fa-paw text-warning small-manual"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="item-body">
+                  <p class="text-secondary small-manual">
+                    Aphrodite is a beautiful white female cat with gray arrow on
+                    the top of her head. Her estimated date of birth is January
+                    2019.
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-row justify-content-between align-items-center"
+                >
+                  <span class="text-secondary small-manual">6 months old</span>
+                  <button
+                    type="button"
+                    class="btn btn-danger border rad-0 px-4"
+                  >
+                    $450
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer class="container-fluid var-bg-black text-light pt-3 px-0">
+      <div class="px-3 border-bottom grid-med">
+        <div class="d-flex align-items-baseline justify-content-between">
+          <div class="flex-footer var-gray">
+            <div class="flex-logo">
+              <i class="fas fa-cat fa-2x text-danger mr-2"></i>
+              <a
+                href="index.html"
+                class="font-weight-bolder mt-auto logo var-red"
+                >NEKO <br />
+                <span class="text-white">SHOP</span>
+              </a>
+            </div>
+            <p class="text-warning">
+              <span class="text-white">Ao Island</span> <br />
+              in Ozu, Japan
+            </p>
+          </div>
+          <ul class="d-flex d-md-none flex-row justify-content-center">
+            <li class="mx-2 var-red">
+              <a class="var-red" href="https://facebook.com/AliZien1999"
+                ><i class="i-manual fab fa-facebook-square"></i
+              ></a>
+            </li>
+            <li class="mx-2 var-red">
+              <a class="var-red" href="https://twitter.com/AbdoAmi60489112"
+                ><i class="i-manual fab fa-twitter-square"></i
+              ></a>
+            </li>
+            <li class="mx-2 var-red">
+              <a class="var-red" href="https://github.com/AbdelrhmanAmin"
+                ><i class="i-manual fab fa-github-square"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-flex justify-content-between">
+          <ul>
+            <li class="var-red font-weight-bold small-manual">
+              About The Shop
+            </li>
+            <li>
+              <span class="text-white font-weight-bold"
+                >Neko shop was founded in 1999</span
+              >
+            </li>
+            <li>
+              <span class="text-white font-weight-bold"
+                >The Owner: Neko Master</span
+              >
+            </li>
+            <li>
+              <span class="text-white font-weight-bold"
+                >In japan Neko means: Cat</span
+              >
+            </li>
+            <li>
+              <span class="text-white font-weight-bold"
+                >The owner had 7 cats</span
+              >
+            </li>
+          </ul>
+          <ul class="d-none d-md-flex flex-column justify-content-between">
+            <li class="mx-2 var-red">
+              <a class="var-red" href="https://facebook.com/AliZien1999"
+                ><i class="i-manual fab fa-facebook-square"></i
+              ></a>
+            </li>
+            <li class="mx-2 var-red">
+              <a class="var-red" href="https://twitter.com/AbdoAmi60489112"
+                ><i class="i-manual fab fa-twitter-square"></i
+              ></a>
+            </li>
+            <li class="mx-2 var-red">
+              <a class="var-red" href="https://github.com/AbdelrhmanAmin"
+                ><i class="i-manual fab fa-github-square"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="w-100 text-center py-1">
+        <p class="text-center m-0">
+          Made with <i class="ml-2 fas fa-mug-hot var-red"></i>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/a4590f3e3a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
